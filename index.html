@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>J-5 Weather API</title>
+</head>
+<body>
+    <div class="card">
+        <nav>
+            <input type="text" placeholder="Enter city">
+            <img src="img/search.png" alt="search-btn">
+            <h3>°C</h3>
+        </nav>
+        <img src="img/clear.png" alt="weather-img">
+        <h1 class="temp">22 °C</h1>
+        <h2 class="city">New York</h2>
+
+        <div class="additional">
+            <div class="block">
+                <img src="img/humidity.png" alt="humidity-img">
+                <div class="text">
+                    <p class="value">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="block">
+                <img src="img/wind.png" alt="wind-img">
+                <div class="text">
+                    <p class="value">15 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
